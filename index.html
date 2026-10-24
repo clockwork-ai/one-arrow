@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>One Arrow Electrical | Electrician in Poynton, day or night</title>
+<meta name="description" content="Alan Sanderson and the One Arrow team: Poynton electricians for emergencies, rewires, consumer units, EV chargers and testing. 5.0 from 38 Google reviews.">
+<meta name="theme-color" content="#101418">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="One Arrow Electrical">
+<meta property="og:title" content="Lights out in Poynton? One Arrow Electrical comes out, day or night.">
+<meta property="og:description" content="24-hour electrician in Poynton. Rated 5.0 from 38 Google reviews. Call 07709 644260.">
+<meta property="og:url" content="https://clockwork-ai.github.io/one-arrow/">
+<meta property="og:image" content="https://clockwork-ai.github.io/one-arrow/og.jpg">
+<meta property="og:image:secure_url" content="https://clockwork-ai.github.io/one-arrow/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A lit chandelier fitted by One Arrow Electrical, with the line: Lights out in Poynton? One Arrow Electrical comes out, day or night.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://clockwork-ai.github.io/one-arrow/og.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23101418'/><path d='M10 21 22 9M17 9h5v5' stroke='%237fb3e2' stroke-width='3' fill='none' stroke-linecap='round'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=Geist:wght@400..600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/hero-dark.webp">
+<link rel="stylesheet" href="scrollcraft.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Electrician",
+  "name": "One Arrow Electrical Ltd",
+  "image": "assets/team-van.webp",
+  "telephone": "+447709644260",
+  "email": "onearrowelectrical@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Poynton", "addressRegion": "Cheshire", "postalCode": "SK12", "addressCountry": "GB" },
+  "areaServed": ["Poynton", "Bramhall", "Hazel Grove", "Cheadle Hulme", "Cheadle", "Stockport", "Wilmslow"],
+  "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "38" },
+  "sameAs": ["https://www.facebook.com/p/One-Arrow-Electrical-100095602114458/", "https://www.instagram.com/onearrowelectrical/"]
+}
+</script>
+<style>
+  :root {
+    --sc-canvas: #101418;  --sc-surface: #181e24;
+    --sc-ink: #f2f4f6;     --sc-ink-soft: #a9b4bf;
+    --sc-accent: #7fb3e2;  --sc-accent-ink: #0d1a26;
+    --sc-font-display: "Archivo", system-ui, sans-serif;
+    --sc-font-text: "Geist", system-ui, sans-serif;
+    --sc-leading-body: 1.7;
+    --sc-track-tight: -0.03em;
+    --sc-shadow-color: 212 40% 8%;
+    --paper: #f3f5f7; --paper-2: #e7ebef; --paper-ink: #141a20; --paper-soft: #4a5560;
+    --blue: #2c5f8c; --blue-deep: #1f4a70;
+    --lit: #ffbf73;
+    --bar-h: 4.25rem;
+    --r: 10px;
+  }
+  .sc-display { font-weight: 760; font-stretch: 108%; letter-spacing: -0.03em; }
+  .sc-display--xl { font-size: clamp(2.6rem, 1.5rem + 3.9vw, 4.9rem); }
+  h1, h2, h3 { text-wrap: balance; }
+  body { padding-bottom: env(safe-area-inset-bottom); }
+
+  /* ------------------------------------------------ light and dark circuits */
+  .paper { background: var(--paper); --sc-ink: var(--paper-ink); --sc-ink-soft: var(--paper-soft); --sc-accent: var(--blue); --sc-accent-ink: #fff; color: var(--sc-ink); --sc-hairline: color-mix(in oklab, var(--paper-ink) 13%, transparent); --sc-shadow-color: 210 30% 30%; }
+  .paper-2 { background: var(--paper-2); }
+  .dark { background: var(--sc-canvas); color: var(--sc-ink); }
+
+  /* --------------------------------------------------------------- banner */
+  .demo-banner { position: relative; z-index: 70; background: #fff4d6; color: #3b2c00; font-size: var(--sc-t-xs); text-align: center; padding: 0.45rem var(--sc-gutter); line-height: 1.4; }
+
+  /* ------------------------------------------------------------------ bar */
+  .bar { position: sticky; top: 0; z-index: 60; height: var(--bar-h); display: flex; align-items: center; gap: var(--sc-5); padding-inline: var(--sc-gutter); background: color-mix(in oklab, #0c1014 92%, transparent); border-bottom: 1px solid #ffffff14; backdrop-filter: saturate(1.2) blur(8px); }
+  .bar__logo { display: block; background: #fff; border-radius: 8px; padding: 4px 8px; box-shadow: var(--sc-e1); flex: none; }
+  .bar__logo img { height: 34px; width: auto; }
+  .board-nav { display: flex; gap: 2px; margin-inline: auto; padding: 5px 8px 4px; border-radius: 10px; background: linear-gradient(#1f272f, #151b21); border: 1px solid #ffffff1c; box-shadow: inset 0 1px 0 #ffffff14, inset 0 -1px 0 #00000080, 0 8px 18px -8px #000c; }
+  .board-nav a { position: relative; display: grid; justify-items: center; gap: 4px; text-decoration: none; color: #aeb9c4; width: 4.4rem; padding: 4px 0 6px; border-radius: 6px; transition: background-color 160ms var(--sc-ease-out), color 160ms var(--sc-ease-out); }
+  .board-nav a:hover { background: #ffffff0f; color: #fff; }
+  .board-nav a:active .mcb__lever { transform: translateY(1px); }
+  .board-nav span.lbl { font-size: 0.66rem; letter-spacing: 0.03em; font-weight: 600; line-height: 1; }
+  .board-nav a[aria-current="true"] { color: #fff; }
+  .board-nav a[aria-current="true"]::after { content: ""; position: absolute; left: 32%; right: 32%; bottom: 1px; height: 2px; border-radius: 2px; background: var(--sc-accent); }
+  .mcb { width: 20px; height: 27px; border-radius: 3px; position: relative; flex: none; background: linear-gradient(#fdfefe, #d6dce2); border: 1px solid #8f9aa5; box-shadow: inset 0 1px 0 #fff, 0 1px 2px #000a; }
+  .mcb::before { content: ""; position: absolute; top: 3px; left: 50%; width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: #6b7580; box-shadow: inset 0 1px 1px #0006; transition: background-color 200ms var(--sc-ease-out), box-shadow 200ms var(--sc-ease-out); }
+  .mcb__lever { position: absolute; left: 4px; right: 4px; top: 15px; height: 8px; border-radius: 2px; background: linear-gradient(#2a3138, #0f1317); box-shadow: 0 1px 0 #ffffff40 inset; transition: transform 180ms cubic-bezier(.3,1.6,.5,1); }
+  .is-on .mcb .mcb__lever { transform: translateY(-5px); }
+  .is-on .mcb::before { background: #39d98a; box-shadow: 0 0 0 1px #1d9e5e, 0 0 7px #39d98aaa; }
+  .bar__call { flex: none; }
+  .bar .bar__menu { display: none; }
+
+  /* -------------------------------------------------------------- buttons */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem; min-height: 3rem; padding: 0 1.25rem; border-radius: var(--r); font-weight: 600; font-size: var(--sc-t-base); text-decoration: none; white-space: nowrap; border: 1.5px solid transparent; cursor: pointer; transition: transform 140ms var(--sc-ease-out), background-color 160ms var(--sc-ease-out), border-color 160ms var(--sc-ease-out); }
+  .btn svg { width: 1.15em; height: 1.15em; flex: none; }
+  .btn:active { transform: translateY(1px) scale(0.98); }
+  .btn--call { background: var(--blue); color: #fff; box-shadow: var(--sc-e2); }
+  .btn--call:hover { background: var(--blue-deep); }
+  .btn--wa { background: transparent; color: inherit; border-color: currentColor; }
+  .btn--wa:hover { background: color-mix(in oklab, currentColor 10%, transparent); }
+  .btn--ghost-dark { color: var(--sc-ink); border-color: #ffffff55; }
+  .btn--sm { min-height: 2.6rem; padding: 0 1rem; font-size: var(--sc-t-sm); }
+  .btn[disabled] { opacity: 0.5; cursor: not-allowed; }
+
+  /* ================================================================= POWER */
+  #power .sc-stage { background: #07090b; }
+  .room { position: absolute; inset: -4% 0 0; transform: scale(calc(1.08 - var(--sc-p, 0) * 0.08)); transform-origin: 58% 62%; }
+  .room img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 58% 64%; }
+  .room__lit { opacity: var(--light, 0); transition: opacity 260ms var(--sc-ease-out); }
+  .bloom { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(42vmax 34vmax at 60% 62%, color-mix(in oklab, var(--lit) 42%, transparent), transparent 70%); opacity: calc(var(--light, 0) * 0.85); transition: opacity 260ms var(--sc-ease-out); mix-blend-mode: soft-light; }
+  .power-scrim { position: absolute; inset: 0; pointer-events: none; z-index: 1; background: linear-gradient(to right, #07090bf2 0%, #07090bcc 30%, #07090b55 52%, transparent 70%); }
+  .power-copy { position: absolute; z-index: 20; left: var(--sc-gutter); top: 50%; translate: 0 -46%; width: min(37rem, 45vw); }
+  .power-copy h1 { color: #fff; }
+  .h1-sub { display: block; margin-top: 0.4em; font-size: 0.56em; line-height: 1.04; letter-spacing: -0.025em; color: #e9eef2; }
+  .power-copy .sc-lede { color: #dfe6ec; margin-top: var(--sc-5); max-width: 34ch; }
+  .power-copy .ctas { display: flex; flex-wrap: wrap; gap: var(--sc-3); margin-top: var(--sc-6); }
+  .power-proof { position: absolute; z-index: 20; left: var(--sc-gutter); top: 50%; translate: 0 -46%; width: min(36rem, 52vw); }
+  .power-proof blockquote { margin: 0; font-family: var(--sc-font-display); font-weight: 600; font-stretch: 100%; font-size: var(--sc-t-2xl); line-height: 1.16; letter-spacing: -0.02em; color: #fff; text-wrap: balance; }
+  .power-proof figcaption { margin-top: var(--sc-5); color: #dfe6ec; }
+  .stars { color: #f5b301; letter-spacing: 2px; }
+  .power-proof .score { display: inline-flex; align-items: baseline; gap: 0.6rem; margin-top: var(--sc-6); padding: 0.6rem 0.9rem; border-radius: var(--r); background: #ffffff14; border: 1px solid #ffffff22; color: #fff; text-decoration: none; }
+  .power-proof .score:hover { background: #ffffff22; }
+  .power-proof .score { position: relative; overflow: hidden; isolation: isolate; }
+  .power-proof .score::after { content: ""; position: absolute; inset: -2px; z-index: -1; pointer-events: none; background: linear-gradient(105deg, transparent 32%, #ffe6b366 48%, #ffffff88 50%, #ffe6b366 52%, transparent 68%); transform: translateX(-130%); }
+  #power.is-live .score { border-color: #ffd58a66; }
+  @media (prefers-reduced-motion: no-preference) {
+    #power.is-live .score::after { animation: shimmer 2.8s var(--sc-ease-out) 0.2s infinite; }
+  }
+  @keyframes shimmer { 0% { transform: translateX(-130%); } 55%, 100% { transform: translateX(130%); } }
+  .power-proof .score b { font-family: var(--sc-font-display); font-size: var(--sc-t-xl); }
+
+  /* the board plane: Alan's own board photo, torch-lit, switches flip back on */
+  .unit { --out: clamp(0, calc((var(--sc-p, 0) - 0.6) * 5), 1); position: absolute; z-index: 15; right: calc(var(--sc-gutter) - 1rem); top: 50%; width: min(48vw, 52rem); translate: 0 calc(-50% - var(--sc-p, 0) * 60px - var(--out) * 90px); scale: calc(1 - var(--out) * 0.08); opacity: calc(1 - var(--out)); perspective: 1600px; }
+  .unit__plane { position: relative; transform: rotateY(-16deg) rotateX(5deg) rotateZ(-1deg); transform-origin: 70% 50%;
+    --edge-x: linear-gradient(to right, transparent 0%, #000 18%, #000 82%, transparent 100%);
+    --edge-y: linear-gradient(to bottom, transparent 0%, #000 20%, #000 80%, transparent 100%);
+    --beam: radial-gradient(ellipse calc(46% + var(--light, 0) * 24%) calc(58% + var(--light, 0) * 24%) at 58% 52%, #000 34%, #0009 64%, transparent 100%);
+    -webkit-mask-image: var(--beam), var(--edge-x), var(--edge-y);
+    -webkit-mask-composite: source-in, source-in;
+            mask-image: var(--beam), var(--edge-x), var(--edge-y);
+            mask-composite: intersect; }
+  .unit__plane img { display: block; width: 100%; height: auto; max-width: none; }
+  .unit__on { filter: brightness(calc(0.42 + var(--light, 0) * 0.5)) saturate(calc(0.6 + var(--light, 0) * 0.4)) sepia(calc(0.25 - var(--light, 0) * 0.25)); transition: filter 260ms var(--sc-ease-out); }
+  .sw { position: absolute; inset: 0; filter: brightness(calc(0.42 + var(--light, 0) * 0.5)) saturate(calc(0.6 + var(--light, 0) * 0.4)) sepia(calc(0.25 - var(--light, 0) * 0.25)); transition: opacity 90ms linear, transform 140ms cubic-bezier(.3,1.7,.5,1); }
+  .sw.is-on { opacity: 0; transform: translateY(-1.2%); }
+  .unit__torch { position: absolute; inset: 0; pointer-events: none; mix-blend-mode: soft-light; background: radial-gradient(30% 40% at 56% 54%, #ffe9c4, transparent 70%); opacity: calc(0.9 - var(--light, 0) * 0.6); }
+  .unit__tag { position: absolute; left: 12%; bottom: -2.8rem; margin: 0; display: flex; align-items: center; gap: 0.6rem; padding: 0.5rem 0.9rem; border-radius: 999px; background: #0a0d11e6; border: 1px solid #ffffff22; box-shadow: 0 6px 18px -6px #000c; backdrop-filter: blur(6px); font-size: var(--sc-t-xs); color: #dfe6ec; }
+  .unit__tag i { width: 8px; height: 8px; border-radius: 50%; background: #e0263f; box-shadow: 0 0 0 3px #e0263f33; flex: none; transition: background-color 200ms var(--sc-ease-out); }
+  .unit.is-live .unit__tag i { background: #2fbf6c; box-shadow: 0 0 0 3px #2fbf6c33; }
+  .board__state { font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #fff; }
+  .unit__cap { color: #cdd6de; }
+
+  /* ================================================================ PROOF */
+  .strip { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--sc-3) var(--sc-6); padding: 1rem var(--sc-gutter); background: var(--blue); color: #fff; }
+  .strip p { margin: 0; font-weight: 600; }
+  .strip a { color: #fff; font-weight: 700; text-underline-offset: 0.2em; }
+  .proof { padding-block: clamp(3.5rem, 7vw, 7rem); }
+  .proof__grid { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.5fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; }
+  .gbadge { position: relative; display: grid; gap: 0.9rem; padding: 1.6rem 1.6rem 1.4rem; border-radius: 18px; background: #fff; color: var(--paper-ink); text-decoration: none; overflow: hidden; box-shadow: var(--sc-e3), inset 0 1px 0 #fff; border: 1px solid #dfe5ea; transition: transform 180ms var(--sc-ease-out), box-shadow 180ms var(--sc-ease-out); }
+  @media (hover: hover) and (pointer: fine) { .gbadge:hover { transform: translateY(-3px); } }
+  .gbadge:active { transform: translateY(0) scale(0.99); }
+  .gbadge__stripe { position: absolute; inset: 0 0 auto 0; height: 5px; background: linear-gradient(90deg, #4285f4 0 25%, #ea4335 25% 50%, #fbbc05 50% 75%, #34a853 75% 100%); }
+  .gbadge__head { display: flex; align-items: center; gap: 0.6rem; font-weight: 600; color: #3c4650; }
+  .gbadge__g { width: 1.8rem; height: 1.8rem; }
+  .gbadge__score { display: flex; align-items: center; gap: 0.9rem; flex-wrap: wrap; }
+  .gbadge__score b { font-family: var(--sc-font-display); font-weight: 800; font-size: clamp(4rem, 2.6rem + 5vw, 6.5rem); line-height: 0.85; letter-spacing: -0.05em; }
+  .gbadge__stars { color: #fbbc05; font-size: clamp(1.4rem, 1rem + 1vw, 2rem); letter-spacing: 3px; }
+  .gbadge__count { color: var(--paper-soft); }
+  .gbadge__count b { color: var(--paper-ink); }
+  .gbadge__cta { display: inline-flex; align-items: center; gap: 0.4rem; font-weight: 600; color: var(--blue); padding-top: 0.9rem; border-top: 1px solid #e3e8ec; }
+  .proof__meta { font-size: var(--sc-t-lg); margin-top: var(--sc-4); }
+  .platforms { list-style: none; padding: 0; margin: var(--sc-6) 0 0; display: grid; gap: 0.7rem; }
+  .platforms li { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: 0.7rem; border-bottom: 1px solid var(--sc-hairline); color: var(--sc-ink-soft); }
+  .platforms b { color: var(--sc-ink); font-weight: 600; }
+  .quotes { display: grid; gap: var(--sc-6); }
+  .quote { margin: 0; padding-left: 1.25rem; border-left: 1px solid var(--sc-hairline-strong); }
+  .quote p { margin: 0; font-size: var(--sc-t-lg); line-height: 1.5; color: var(--sc-ink); text-wrap: pretty; }
+  .quote footer { margin-top: 0.6rem; font-size: var(--sc-t-sm); color: var(--sc-ink-soft); }
+  .quote--lead p { font-family: var(--sc-font-display); font-weight: 650; font-size: var(--sc-t-xl); line-height: 1.25; letter-spacing: -0.015em; }
+  .more-link { display: inline-flex; align-items: center; gap: 0.5rem; margin-top: var(--sc-7); font-weight: 600; color: var(--blue); }
+  .more-link:hover { color: var(--blue-deep); }
+
+  /* ================================================================= TEAM */
+  .team { padding-block: clamp(3rem, 6vw, 6rem); }
+  .team__grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+  .team__photo { border-radius: 16px; overflow: hidden; box-shadow: var(--sc-e3); margin: 0; }
+  .team__photo img { width: 100%; height: auto; aspect-ratio: 1001 / 1178; object-fit: cover; }
+  .team__photo figcaption { padding: 0.7rem 1rem; font-size: var(--sc-t-sm); color: var(--sc-ink-soft); background: #fff; }
+  .facts { list-style: none; padding: 0; margin: var(--sc-6) 0 0; display: grid; gap: 0.65rem; }
+  .facts li { display: grid; grid-template-columns: 1.75rem 1fr; gap: 0.75rem; align-items: start; font-weight: 500; }
+  .tick { display: grid; place-items: center; width: 1.6rem; height: 1.6rem; margin-top: 0.1rem; border-radius: 6px; border: 2px solid #9fb1c2; background: #fff; transition: background-color 220ms var(--sc-ease-out), border-color 220ms var(--sc-ease-out), transform 220ms cubic-bezier(.3,1.6,.5,1); }
+  .tick svg { width: 1.15rem; height: 1.15rem; }
+  .tick path { fill: none; stroke: #fff; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dashoffset 380ms var(--sc-ease-out) 120ms; }
+  .facts li > span:last-child { opacity: 0.55; transition: opacity 300ms var(--sc-ease-out); }
+  .facts li.is-ticked .tick { background: var(--blue); border-color: var(--blue); transform: scale(1.06); }
+  .facts li.is-ticked .tick path { stroke-dashoffset: 0; }
+  .facts li.is-ticked > span:last-child { opacity: 1; }
+
+  /* ============================================================= SERVICES */
+  #services .sc-stage { display: flex; align-items: center; background: var(--paper); }
+  .rail { gap: clamp(1rem, 2.4vw, 2rem); padding-inline: var(--sc-gutter); align-items: stretch; }
+  .rail__lead { flex: 0 0 min(26rem, 80vw); align-self: center; padding-right: var(--sc-4); }
+  .svc { flex: 0 0 clamp(16rem, 25vw, 22rem); display: flex; flex-direction: column; border-radius: 14px; background: #fff; box-shadow: var(--sc-e2), inset 0 1px 0 #fff; overflow: hidden; }
+  .svc img { width: 100%; height: clamp(12rem, 34vh, 19rem); object-fit: cover; }
+  .svc div { padding: 1.1rem 1.2rem 1.3rem; }
+  .svc h3 { margin: 0; font-family: var(--sc-font-display); font-weight: 720; font-stretch: 105%; font-size: var(--sc-t-xl); letter-spacing: -0.02em; line-height: 1.1; }
+  .svc p { margin: 0.5rem 0 0; color: var(--sc-ink-soft); font-size: var(--sc-t-sm); line-height: 1.6; }
+  .rail__note { flex: 0 0 min(22rem, 78vw); align-self: center; color: var(--sc-ink-soft); }
+  .rail__note h3 { color: var(--sc-ink); margin: 0 0 0.6rem; font-size: var(--sc-t-lg); }
+  @media (prefers-reduced-motion: no-preference) {
+    .svc { opacity: calc(0.55 + 0.45 * clamp(0, (var(--sc-p, 0) * 6 - var(--i, 0) + 1.2), 1)); }
+  }
+
+  /* ================================================================= WORK */
+  .work { padding-block: clamp(3.5rem, 7vw, 7rem); }
+  .work__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: var(--sc-5); }
+  .work__grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: clamp(0.6rem, 1.4vw, 1.1rem); margin-top: var(--sc-7); }
+  .work__grid figure { margin: 0; position: relative; }
+  .work__grid figure:nth-child(1) { grid-column: span 5; grid-row: span 2; }
+  .work__grid figure:nth-child(2) { grid-column: span 4; }
+  .work__grid figure:nth-child(3) { grid-column: span 3; }
+  .work__grid figure:nth-child(4) { grid-column: span 3; }
+  .work__grid figure:nth-child(5) { grid-column: span 4; }
+  .work__grid img { width: 100%; height: 100%; min-height: 14rem; object-fit: cover; border-radius: 12px; }
+  .work__grid figcaption { position: absolute; left: 0.6rem; bottom: 0.6rem; right: 0.6rem; font-size: var(--sc-t-xs); color: #fff; background: #0c1014b8; padding: 0.35rem 0.6rem; border-radius: 6px; width: fit-content; }
+  .swipe { clip-path: inset(0 100% 0 0 round 12px); transition: clip-path 1s var(--sc-ease-out); }
+  .swipe img { transform: scale(1.1); transition: transform 1.3s var(--sc-ease-out); }
+  .swipe.in { clip-path: inset(0 0 0 0 round 12px); }
+  .swipe.in img { transform: none; }
+  .follow { display: flex; flex-wrap: wrap; gap: var(--sc-3); }
+  .btn--social { background: #fff; color: var(--paper-ink); border-color: #cfd6dd; box-shadow: var(--sc-e1); }
+  .btn--social:hover { border-color: var(--blue); }
+  .btn--social small { color: var(--paper-soft); font-weight: 500; }
+
+  /* ================================================================ FINDS */
+  #finds .sc-stage { background: #12171c; display: grid; place-items: center; }
+  .find { position: absolute; inset: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.5rem, 5vw, 5rem); align-items: center; padding: calc(var(--bar-h) + 2rem) var(--sc-gutter) 3rem; max-width: var(--sc-maxw); margin-inline: auto; }
+  .find img { width: 100%; height: min(70vh, 40rem); object-fit: cover; border-radius: 14px; box-shadow: var(--sc-e3); }
+  .find h2, .find h3 { margin: 0; color: #fff; }
+  .find h3 { font-family: var(--sc-font-display); font-weight: 720; font-size: var(--sc-t-2xl); letter-spacing: -0.02em; line-height: 1.08; }
+  .find .said { margin-top: var(--sc-5); font-size: var(--sc-t-lg); color: #dfe6ec; }
+  .find .said b { color: #fff; }
+  .find .why { margin-top: var(--sc-4); color: var(--sc-ink-soft); max-width: 44ch; }
+  .find .tag { font-size: var(--sc-t-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--sc-accent); font-weight: 600; margin-bottom: var(--sc-4); display: block; }
+
+  /* ================================================================= HELP */
+  .help { padding-block: clamp(3.5rem, 7vw, 7rem); }
+  .steps { list-style: none; padding: 0; margin: var(--sc-7) 0 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--sc-5); counter-reset: s; }
+  .steps li { padding-top: var(--sc-4); border-top: 2px solid var(--blue); }
+  .steps h3 { margin: 0 0 0.4rem; font-size: var(--sc-t-lg); line-height: 1.25; }
+  .steps p { margin: 0; color: var(--sc-ink-soft); font-size: var(--sc-t-sm); }
+  .help__split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: clamp(2rem, 6vw, 6rem); margin-top: clamp(3.5rem, 7vw, 6rem); }
+  .areas { list-style: none; padding: 0; margin: var(--sc-5) 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .areas li { padding: 0.45rem 0.8rem; border-radius: 8px; background: #fff; border: 1px solid #d3dae0; font-size: var(--sc-t-sm); }
+  .areas li b { font-weight: 600; }
+  .areas li span { color: var(--paper-soft); }
+  details { border-bottom: 1px solid var(--sc-hairline); }
+  details:first-of-type { border-top: 1px solid var(--sc-hairline); }
+  summary { cursor: pointer; list-style: none; padding: 1.05rem 2.2rem 1.05rem 0; font-weight: 600; position: relative; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: ""; position: absolute; right: 0.4rem; top: 50%; width: 0.6rem; height: 0.6rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-70%) rotate(45deg); transition: transform 160ms var(--sc-ease-out); }
+  details[open] summary::after { transform: translateY(-30%) rotate(-135deg); }
+  summary:hover { color: var(--blue); }
+  details p { margin: 0 0 1.1rem; color: var(--sc-ink-soft); max-width: 60ch; }
+  .placeholder { display: inline-block; padding: 0.15rem 0.5rem; border: 1px dashed #b07a00; border-radius: 6px; background: #fff7e0; color: #6b4a00; font-size: var(--sc-t-sm); }
+
+  /* ============================================================== CONTACT */
+  .contact { padding-block: clamp(3.5rem, 7vw, 7rem); background: linear-gradient(#f3f5f7, #fbf5ec); }
+  .panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(2rem, 5vw, 5rem); padding: clamp(1.5rem, 4vw, 3.5rem); border-radius: 18px; background: #fff; box-shadow: var(--sc-e3), inset 0 1px 0 #fff; }
+  .panel__ways { display: grid; gap: var(--sc-3); margin-top: var(--sc-6); justify-items: start; }
+  .panel__hours { margin-top: var(--sc-6); color: var(--sc-ink-soft); font-size: var(--sc-t-sm); }
+  .panel__hours b { color: var(--sc-ink); }
+  form { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sc-4); align-content: start; }
+  label { display: grid; gap: 0.35rem; font-size: var(--sc-t-sm); font-weight: 600; }
+  label.full { grid-column: 1 / -1; }
+  input, select, textarea { width: 100%; min-height: 3rem; padding: 0.6rem 0.8rem; border-radius: 8px; border: 1.5px solid #c3ccd4; background: #fbfcfd; color: var(--paper-ink); font-weight: 400; transition: border-color 140ms var(--sc-ease-out); }
+  input:hover, select:hover, textarea:hover { border-color: #93a1ae; }
+  input:focus-visible, select:focus-visible, textarea:focus-visible { border-color: var(--blue); outline: 2px solid var(--blue); outline-offset: 1px; }
+  textarea { min-height: 6rem; resize: vertical; }
+  form .btn { grid-column: 1 / -1; justify-self: start; }
+  .form-note { grid-column: 1 / -1; margin: 0; font-size: var(--sc-t-sm); color: var(--paper-soft); }
+  .form-done { grid-column: 1 / -1; margin: 0; padding: 0.8rem 1rem; border-radius: 8px; background: #e8f3ec; color: #14532d; font-weight: 600; }
+
+  /* =============================================================== FOOTER */
+  .foot { background: #0c1014; color: #c9d2da; padding: clamp(2.5rem, 5vw, 4rem) var(--sc-gutter) calc(2rem + env(safe-area-inset-bottom)); }
+  .foot__inner { max-width: var(--sc-maxw); margin-inline: auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--sc-6); }
+  .foot a { color: #fff; }
+  .foot .links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .icon-link { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.55rem 0.85rem; border-radius: 8px; border: 1px solid #ffffff2a; text-decoration: none; font-size: var(--sc-t-sm); transition: background-color 160ms var(--sc-ease-out), border-color 160ms var(--sc-ease-out); }
+  .icon-link:hover { background: #ffffff12; border-color: #ffffff55; }
+  .icon-link svg { width: 1.1rem; height: 1.1rem; }
+  .foot small { display: block; margin-top: var(--sc-5); color: #8d99a5; line-height: 1.6; }
+
+  /* =========================================================== PHONE BITS */
+  .callbar { display: none; }
+  .menu { position: fixed; inset: 0; z-index: 90; background: #0c1014; color: #fff; padding: calc(var(--bar-h) + 1rem) var(--sc-gutter) calc(2rem + env(safe-area-inset-bottom)); display: flex; flex-direction: column; gap: var(--sc-5); overflow-y: auto; opacity: 0; visibility: hidden; transform: translateY(-8px); transition: opacity 200ms var(--sc-ease-out), transform 200ms var(--sc-ease-out), visibility 0s linear 200ms; }
+  .menu.is-open { opacity: 1; visibility: visible; transform: none; transition: opacity 200ms var(--sc-ease-out), transform 200ms var(--sc-ease-out); }
+  .menu__close { position: absolute; top: 0.9rem; right: var(--sc-gutter); }
+  .menu .board-nav { flex-wrap: wrap; margin: 0; justify-content: flex-start; }
+  .menu .board-nav a { width: auto; grid-template-columns: auto 1fr; justify-items: start; align-items: center; gap: 0.7rem; padding: 0.7rem 0.8rem; flex: 1 1 45%; }
+  .menu .board-nav span.lbl { font-size: 1rem; }
+  .menu .board-nav a[aria-current="true"] { background: #ffffff10; }
+  .menu .board-nav a[aria-current="true"]::after { display: none; }
+  .menu__ctas { display: grid; gap: 0.6rem; }
+  .menu__ctas .btn { width: 100%; }
+  .menu__socials { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+  .iconbtn { display: inline-grid; place-items: center; width: 2.9rem; height: 2.9rem; border-radius: 10px; border: 1px solid #ffffff33; background: transparent; color: #fff; cursor: pointer; transition: background-color 160ms var(--sc-ease-out); }
+  .iconbtn:hover { background: #ffffff14; }
+  .iconbtn:active { transform: scale(0.96); }
+  .iconbtn svg { width: 1.4rem; height: 1.4rem; }
+  html.menu-open { overflow: hidden; }
+
+  @media (max-width: 1080px) {
+    .board-nav--bar { display: none; }
+    .bar { justify-content: space-between; }
+    .bar .bar__menu { display: inline-grid; }
+    .bar__right { display: flex; gap: 0.5rem; align-items: center; }
+  }
+  @media (min-width: 1081px) { .bar__right { display: contents; } }
+
+  @media (max-width: 860px) {
+    :root { --bar-h: 3.75rem; }
+    .bar__logo img { height: 28px; }
+    .bar__call span { display: none; }
+    .power-scrim { background: linear-gradient(to top, #07090bf5 0%, #07090be0 38%, #07090b66 62%, #07090b30 100%); }
+    .power-copy, .power-proof { top: auto; bottom: calc(5.5rem + env(safe-area-inset-bottom)); translate: none; width: auto; right: var(--sc-gutter); }
+    .power-copy .sc-lede { font-size: var(--sc-t-base); margin-top: var(--sc-4); }
+    .power-copy .ctas { margin-top: var(--sc-5); }
+    .power-copy .ctas .btn { flex: 1 1 auto; }
+    .power-proof blockquote { font-size: var(--sc-t-xl); }
+    .unit { left: -3vw; right: -3vw; width: auto; top: calc(var(--bar-h) + 0.25rem); translate: 0 calc(var(--sc-p, 0) * -14px - var(--out) * 60px); }
+    .unit__plane { transform: rotateY(-10deg) rotateX(4deg); }
+    .unit__tag { left: calc(6vw + var(--sc-gutter)); bottom: -1.6rem; }
+    .unit__cap { display: none; }
+    .proof__grid, .team__grid, .help__split, .panel { grid-template-columns: 1fr; }
+    .steps { grid-template-columns: 1fr 1fr; }
+    .find { grid-template-columns: 1fr; align-content: center; gap: 1.2rem; padding-top: calc(var(--bar-h) + 1rem); padding-bottom: 6rem; }
+    .find img { height: 38vh; }
+    .find h3 { font-size: var(--sc-t-xl); }
+    .find .said { font-size: var(--sc-t-base); margin-top: var(--sc-3); }
+    .find .why { font-size: var(--sc-t-sm); }
+    .work__grid { grid-template-columns: 1fr 1fr; }
+    .work__grid figure:nth-child(n) { grid-column: span 1; grid-row: auto; }
+    .work__grid figure:nth-child(1) { grid-column: span 2; }
+    .work__grid img { min-height: 11rem; }
+    form { grid-template-columns: 1fr; }
+    .callbar { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; position: fixed; inset: auto 0 0 0; z-index: 55; padding: 0.6rem var(--sc-gutter) calc(0.6rem + env(safe-area-inset-bottom)); background: #0c1014f2; border-top: 1px solid #ffffff1a; }
+    .callbar .btn { min-height: 3.1rem; }
+    .callbar .btn--wa { color: #fff; }
+    .foot { padding-bottom: calc(6rem + env(safe-area-inset-bottom)); }
+    .strip { padding-block: 0.85rem; }
+  }
+  @media (max-width: 420px) { .steps { grid-template-columns: 1fr; } }
+
+  /* reduced motion: the room is lit, the board is on, no extra pinned scroll */
+  @media (prefers-reduced-motion: reduce) {
+    #power { height: auto !important; }
+    #power .sc-stage { position: relative; height: 100svh; }
+    .room { transform: none; }
+    .room__lit { opacity: 1; }
+    .bloom { opacity: 0.6; }
+    .power-scrim { background: linear-gradient(to right, #07090bf7 0%, #07090beb 38%, #07090bb0 58%, #07090b40 80%); }
+    .unit { translate: 0 -50%; opacity: 1; scale: 1; }
+    .sw { opacity: 0; }
+    .unit__plane { --beam: radial-gradient(ellipse 70% 82% at 58% 52%, #000 40%, transparent 100%); }
+    .power-proof { display: none; }
+    #services { height: auto !important; }
+    #services .sc-stage { position: relative; height: auto; padding-block: clamp(3rem, 6vw, 5rem); }
+    .swipe { clip-path: none; transition: none; }
+    .swipe img { transform: none; transition: none; }
+    .btn, .mcb__lever, .menu { transition: none; }
+  }
+  @media (prefers-reduced-motion: reduce) and (max-width: 860px) { .unit { translate: none; } .power-scrim { background: linear-gradient(to top, #07090bfa 0%, #07090bf0 50%, #07090b99 72%, #07090b55 100%); } }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.47-.72-1.7-.8-.23-.09-.4-.13-.56.12-.17.25-.64.8-.79.97-.14.16-.29.18-.54.06a6.7 6.7 0 0 1-3.32-2.9c-.25-.43.25-.4.72-1.33a.45.45 0 0 0-.02-.43c-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.41-.56-.42h-.48a.92.92 0 0 0-.67.31 2.8 2.8 0 0 0-.87 2.08 4.86 4.86 0 0 0 1.02 2.58 11.1 11.1 0 0 0 4.26 3.76c1.58.68 2.2.74 3 .62a2.55 2.55 0 0 0 1.67-1.18 2.07 2.07 0 0 0 .15-1.18c-.06-.1-.23-.17-.48-.29z"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-7.5H16l.4-3h-2.9V8.6c0-.87.25-1.46 1.5-1.46h1.6V4.46A21 21 0 0 0 14.3 4.3c-2.3 0-3.8 1.4-3.8 3.95V10.5H8v3h2.5V21z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7.3A4.7 4.7 0 1 0 16.7 12 4.7 4.7 0 0 0 12 7.3zm0 7.75A3.05 3.05 0 1 1 15.05 12 3.05 3.05 0 0 1 12 15.05zM17 5.9a1.1 1.1 0 1 0 1.1 1.1A1.1 1.1 0 0 0 17 5.9zM21.9 7.8a5.6 5.6 0 0 0-1.5-3.95A5.6 5.6 0 0 0 16.4 2.3C14.9 2.2 9.1 2.2 7.6 2.3a5.6 5.6 0 0 0-3.95 1.5A5.6 5.6 0 0 0 2.1 7.8C2 9.3 2 15 2.1 16.5a5.6 5.6 0 0 0 1.5 3.95 5.6 5.6 0 0 0 3.95 1.5c1.5.1 7.3.1 8.8 0a5.6 5.6 0 0 0 3.95-1.5 5.6 5.6 0 0 0 1.5-3.95c.1-1.5.1-7.2 0-8.7zm-2.1 10.4a3.2 3.2 0 0 1-1.8 1.8c-1.25.5-4.2.4-5.6.4s-4.35.1-5.6-.4a3.2 3.2 0 0 1-1.8-1.8c-.5-1.25-.4-4.2-.4-5.6s-.1-4.35.4-5.6A3.2 3.2 0 0 1 6.4 5.2c1.25-.5 4.2-.4 5.6-.4s4.35-.1 5.6.4a3.2 3.2 0 0 1 1.8 1.8c.5 1.25.4 4.2.4 5.6s.1 4.35-.4 5.6z"/></symbol>
+  <symbol id="i-g" viewBox="0 0 24 24"><path fill="currentColor" d="M21.6 12.2c0-.7-.06-1.37-.18-2H12v3.8h5.4a4.6 4.6 0 0 1-2 3v2.5h3.24c1.9-1.75 2.96-4.3 2.96-7.3zM12 22c2.7 0 4.97-.9 6.63-2.43l-3.24-2.5c-.9.6-2.04.96-3.4.96-2.6 0-4.82-1.76-5.6-4.13H3.06v2.6A10 10 0 0 0 12 22zM6.4 13.9a6 6 0 0 1 0-3.8V7.5H3.06a10 10 0 0 0 0 9zM12 5.96c1.47 0 2.8.5 3.83 1.5l2.87-2.87A9.6 9.6 0 0 0 12 2a10 10 0 0 0-8.94 5.5L6.4 10.1C7.18 7.73 9.4 5.96 12 5.96z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 17.3 6.2 3.7-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3l5.4 4.7-1.6 7z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.2 4.2L19 7"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="m6 6 12 12M18 6 6 18"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14 5h5v5M19 5l-8 8M18 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h4"/></symbol>
+</svg>
+
+<span data-sc-progress></span>
+<div class="sc-grain" aria-hidden="true"></div>
+
+<p class="demo-banner">Concept demo by Clockwork AI. Not the official website of One Arrow Electrical.</p>
+
+<header class="bar">
+  <a class="bar__logo" href="#power" aria-label="One Arrow Electrical, back to the top"><img src="assets/logo.png" width="760" height="312" alt="One Arrow Electrical"></a>
+  <nav class="board-nav board-nav--bar" aria-label="Sections">
+    <a href="#power" data-circuit="power"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Power</span></a>
+    <a href="#proof" data-circuit="proof"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Reviews</span></a>
+    <a href="#team" data-circuit="team"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Team</span></a>
+    <a href="#services" data-circuit="services"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Services</span></a>
+    <a href="#work" data-circuit="work"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Work</span></a>
+    <a href="#finds" data-circuit="finds"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Finds</span></a>
+    <a href="#help" data-circuit="help"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Areas</span></a>
+    <a href="#contact" data-circuit="contact"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Contact</span></a>
+  </nav>
+  <div class="bar__right">
+    <a class="btn btn--call btn--sm bar__call" href="tel:+447709644260"><svg><use href="#i-phone"/></svg><span>07709 644260</span></a>
+    <button class="iconbtn bar__menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><svg><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
+  <button class="iconbtn menu__close" type="button" aria-label="Close menu"><svg><use href="#i-close"/></svg></button>
+  <nav class="board-nav" aria-label="Sections">
+    <a href="#power" data-circuit="power"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Power</span></a>
+    <a href="#proof" data-circuit="proof"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Reviews</span></a>
+    <a href="#team" data-circuit="team"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Team</span></a>
+    <a href="#services" data-circuit="services"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Services</span></a>
+    <a href="#work" data-circuit="work"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Work</span></a>
+    <a href="#finds" data-circuit="finds"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Finds</span></a>
+    <a href="#help" data-circuit="help"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Areas and FAQ</span></a>
+    <a href="#contact" data-circuit="contact"><span class="mcb"><span class="mcb__lever"></span></span><span class="lbl">Contact</span></a>
+  </nav>
+  <div class="menu__ctas">
+    <a class="btn btn--call" href="#contact">Get a free quote</a>
+    <a class="btn btn--call" href="tel:+447709644260"><svg><use href="#i-phone"/></svg>Call 07709 644260</a>
+    <a class="btn btn--wa btn--ghost-dark" href="https://wa.me/447709644260?text=Hi%20Alan%2C%20I%20found%20you%20online.%20I%27m%20after%20a%20quote%20for%3A%20" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp Alan</a>
+  </div>
+  <div class="menu__socials">
+    <a class="icon-link" href="https://www.facebook.com/p/One-Arrow-Electrical-100095602114458/" target="_blank" rel="noopener" aria-label="One Arrow Electrical on Facebook"><svg><use href="#i-fb"/></svg>Facebook</a>
+    <a class="icon-link" href="https://www.instagram.com/onearrowelectrical/" target="_blank" rel="noopener" aria-label="One Arrow Electrical on Instagram"><svg><use href="#i-ig"/></svg>Instagram</a>
+    <a class="icon-link" href="https://www.google.com/maps/place/?q=place_id:ChIJbcqbUSute0gRoYxKcFPTyQ0" target="_blank" rel="noopener" aria-label="One Arrow Electrical reviews on Google"><svg><use href="#i-g"/></svg>Google reviews</a>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- POWER: the hero is the peak. Pinned, the board resets as you scroll. -->
+  <section id="power" data-sc-act="pin" data-sc-span="3.6" aria-label="Emergency electrician in Poynton">
+    <div data-sc-stage>
+      <div class="room" aria-hidden="true">
+        <img class="room__dark" src="assets/hero-dark.webp" width="1350" height="1800" alt="">
+        <img class="room__lit" src="assets/hero-lit.webp" width="1350" height="1800" alt="">
+      </div>
+      <div class="bloom" aria-hidden="true"></div>
+      <div class="power-scrim" aria-hidden="true"></div>
+
+      <div class="unit" aria-hidden="true">
+        <div class="unit__plane">
+          <img class="unit__on" src="assets/board-on.webp" width="1496" height="760" alt="">
+          <img class="sw" data-at="0.12" src="assets/board-off.webp" alt="" style="clip-path:inset(44.74% 6.68% 40.79% 80.75%)">
+          <img class="sw" data-at="0.2" src="assets/board-off.webp" alt="" style="clip-path:inset(45.79% 74.06% 37.63% 19.79%)">
+          <img class="sw" data-at="0.248" src="assets/board-off.webp" alt="" style="clip-path:inset(45.79% 67.91% 37.63% 26.07%)">
+          <img class="sw" data-at="0.296" src="assets/board-off.webp" alt="" style="clip-path:inset(45.79% 61.76% 37.63% 32.35%)">
+          <img class="sw" data-at="0.344" src="assets/board-off.webp" alt="" style="clip-path:inset(45.79% 55.68% 37.63% 38.57%)">
+          <img class="sw" data-at="0.392" src="assets/board-off.webp" alt="" style="clip-path:inset(45.79% 49.60% 37.63% 44.72%)">
+          <img class="sw" data-at="0.44" src="assets/board-off.webp" alt="" style="clip-path:inset(45.79% 43.38% 37.63% 50.87%)">
+          <img class="sw" data-at="0.488" src="assets/board-off.webp" alt="" style="clip-path:inset(45.79% 37.30% 37.63% 56.82%)">
+          <img class="sw" data-at="0.536" src="assets/board-off.webp" alt="" style="clip-path:inset(45.79% 31.15% 37.63% 62.90%)">
+          <img class="sw" data-at="0.584" src="assets/board-off.webp" alt="" style="clip-path:inset(45.79% 25.07% 37.63% 68.98%)">
+          <div class="unit__torch"></div>
+        </div>
+        <p class="unit__tag"><i></i><span class="board__state">Tripped</span><span class="unit__cap">A One Arrow board. Scroll to put the power back on.</span></p>
+      </div>
+
+      <div class="power-copy" data-sc-cue="0 0.66 0 0.14">
+        <h1 class="sc-display sc-display--xl">Lights out in Poynton? <span class="h1-sub">One Arrow Electrical comes out, day or night.</span></h1>
+        <p class="sc-lede">NAPIT electrician for emergencies, rewires, fuse boxes and EV chargers. Poynton and around, 24 hours.</p>
+        <div class="ctas">
+          <a class="btn btn--call" href="tel:+447709644260"><svg><use href="#i-phone"/></svg>Call 07709 644260</a>
+          <a class="btn btn--wa btn--ghost-dark" href="https://wa.me/447709644260?text=Hi%20Alan%2C%20my%20power%27s%20gone%20off.%20I%27m%20at%20(postcode)%3A%20" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+        </div>
+      </div>
+
+      <figure class="power-proof" data-sc-cue="0.66 1 0.12 0.1" style="margin:0">
+        <blockquote>"We had a complete black out so rang them up and they came out within the hour."</blockquote>
+        <figcaption>David Mercer, Google review. "I can't thank them enough being so late at night and having three young children."</figcaption>
+        <a class="score" href="https://www.google.com/maps/place/?q=place_id:ChIJbcqbUSute0gRoYxKcFPTyQ0" target="_blank" rel="noopener"><b>5.0</b><span class="stars" aria-hidden="true">★★★★★</span><span>38 Google reviews</span></a>
+      </figure>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section id="proof" class="paper">
+    <div class="strip">
+      <p>24-hour emergency call-outs in Poynton and nearby.</p>
+      <p>Power off, tripping, burning smell? <a href="tel:+447709644260">Call 07709 644260</a></p>
+    </div>
+    <div class="proof sc-wrap">
+      <div class="proof__grid">
+        <div class="sc-stack" data-sc-in data-sc-stagger="70">
+          <a class="gbadge" href="https://www.google.com/maps/place/?q=place_id:ChIJbcqbUSute0gRoYxKcFPTyQ0" target="_blank" rel="noopener" aria-label="One Arrow Electrical, 5.0 from 38 Google reviews. Read them on Google">
+            <span class="gbadge__stripe" aria-hidden="true"></span>
+            <span class="gbadge__head"><svg class="gbadge__g" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3a12 12 0 0 1-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg><span>Google reviews</span></span>
+            <span class="gbadge__score"><b>5.0</b><span class="gbadge__stars" aria-hidden="true">★★★★★</span></span>
+            <span class="gbadge__count"><b><span data-sc-count="0 38">38</span> reviews</b>, every one of them five stars</span>
+            <span class="gbadge__cta">Read them on Google <svg width="16" height="16"><use href="#i-out"/></svg></span>
+          </a>
+          <ul class="platforms">
+            <li><span>MyJobQuote</span><b>5 from 15</b></li>
+            <li><span>Facebook</span><b>100% recommend, 11 reviews</b></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="sc-display sc-display--md" data-sc-in>When it goes wrong at night, the neighbours say this.</h2>
+          <div class="quotes sc-stack" data-sc-in data-sc-stagger="70" style="margin-top:var(--sc-6)">
+            <blockquote class="quote quote--lead"><p>"Alan came out last minute when we had a problem and it was frosty and freezing. He was recommended by someone. We have a really old, badly wired system and he managed to get to the root of the problem and worked late."</p><footer>Victoria Gerry, Google</footer></blockquote>
+            <blockquote class="quote"><p>"My main fuse kept tripping so needed help to find the problem. Alan from One Arrow was with me within the hour and tracked down the problem quickly."</p><footer>Dave Rowlinson, Google</footer></blockquote>
+            <blockquote class="quote"><p>"Had an ongoing electrical issue which several other electricians hadn't resolved fully. Was causing me a massive headache and stress. Alan was able to solve it quickly and efficiently."</p><footer>John Bridgeman, Google</footer></blockquote>
+            <blockquote class="quote"><p>"Had a tumble dryer and fuse blow out at the wall. Quick and responsive same day Fix. I would definitely recommend Alan."</p><footer>Peter Morris, Google</footer></blockquote>
+          </div>
+          <a class="more-link" href="https://www.google.com/maps/place/?q=place_id:ChIJbcqbUSute0gRoYxKcFPTyQ0" target="_blank" rel="noopener">Read all 38 reviews on Google <svg width="18" height="18"><use href="#i-out"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="paper paper-2 team">
+    <div class="sc-wrap team__grid">
+      <figure class="team__photo" data-sc-reveal="up" data-sc-reveal-at="0.04 0.42">
+        <img src="assets/team-van.webp" width="1001" height="1178" alt="Alan and Ted from One Arrow Electrical standing by their sign-written van">
+        <figcaption>Alan and Ted, with the van you'll see on your drive.</figcaption>
+      </figure>
+      <div class="sc-stack" data-sc-in data-sc-stagger="70">
+        <h2 class="sc-display sc-display--lg">The people who turn up.</h2>
+        <p class="sc-body" style="font-size:var(--sc-t-lg)">Alan Sanderson runs One Arrow Electrical from Poynton. Ted is his apprentice, a year into his training. Customers name them both.</p>
+        <blockquote class="quote"><p>"Alan and Ted did an inspection of all electrics, fitted new metal fuse box leaving no mess at all. Great service will always use them again if needed."</p><footer>Nigel Powner, Google</footer></blockquote>
+        <ul class="facts">
+          <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24"><path pathLength="1" d="m5.5 12.5 4.2 4.2L18.5 7.5"/></svg></span><span>NAPIT accredited, so the work is signed off with building control</span></li>
+          <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24"><path pathLength="1" d="m5.5 12.5 4.2 4.2L18.5 7.5"/></svg></span><span>Enhanced DBS checks for everyone who comes to your home</span></li>
+          <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24"><path pathLength="1" d="m5.5 12.5 4.2 4.2L18.5 7.5"/></svg></span><span>Sign-written van and company workwear on every job</span></li>
+          <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24"><path pathLength="1" d="m5.5 12.5 4.2 4.2L18.5 7.5"/></svg></span><span>One Arrow Electrical Ltd, registered company since 2021</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES: sideways travel reads as range -->
+  <section id="services" class="paper" data-sc-act="pan" data-sc-span="3.2">
+    <div data-sc-stage>
+      <div class="rail" data-sc-pan="0.04">
+        <div class="rail__lead sc-stack">
+          <h2 class="sc-display sc-display--lg">What Alan does.</h2>
+          <p class="sc-body">Homes and small businesses, from one new socket to a full rewire. Every job tested and certified.</p>
+        </div>
+        <article class="svc" style="--i:0"><img src="assets/svc-testing.webp" width="900" height="1200" alt="Test meter plugged into a brass double socket" loading="lazy"><div><h3>Faults and emergencies</h3><p>Tripping, no power, burning smells, loss of earth. Traced and made safe, day or night.</p></div></article>
+        <article class="svc" style="--i:1"><img src="assets/svc-board.webp" width="900" height="1200" alt="New consumer unit fitted by One Arrow" loading="lazy"><div><h3>Fuse boards</h3><p>Old fuse boxes swapped for modern consumer units with surge protection, certified.</p></div></article>
+        <article class="svc" style="--i:2"><img src="assets/svc-rewire.webp" width="675" height="1200" alt="Walls chased for a rewire in progress" loading="lazy"><div><h3>Rewires</h3><p>Full and part rewires, kept tidy each day. Six of his Google reviews are for rewires.</p></div></article>
+        <article class="svc" style="--i:3"><img src="assets/svc-ev.webp" width="900" height="1200" alt="EV charger fitted to a brick wall" loading="lazy"><div><h3>EV chargers</h3><p>From picking the charger to the site visit and fitting, with the certificate after.</p></div></article>
+        <article class="svc" style="--i:4"><img src="assets/svc-lighting.webp" width="900" height="1200" alt="Pendant light fitted above a staircase" loading="lazy"><div><h3>Lighting and sockets</h3><p>New lights, spotlights, outdoor and security lights, extra sockets inside and out.</p></div></article>
+        <div class="rail__note">
+          <h3>Also</h3>
+          <p>EICRs and landlord safety checks, garage and garden room power, kitchen and bathroom electrics, data cabling, commercial work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="paper work">
+    <div class="sc-wrap">
+      <div class="work__head">
+        <div class="sc-stack" data-sc-in data-sc-stagger="70">
+          <h2 class="sc-display sc-display--md">Recent jobs, from his own phone.</h2>
+          <p class="sc-body">Alan posts his work as he goes. These are his photos.</p>
+        </div>
+        <div class="follow">
+          <a class="btn btn--social" href="https://www.facebook.com/p/One-Arrow-Electrical-100095602114458/" target="_blank" rel="noopener" aria-label="Follow One Arrow Electrical on Facebook, 342 followers"><svg><use href="#i-fb"/></svg>Follow on Facebook <small>342</small></a>
+          <a class="btn btn--social" href="https://www.instagram.com/onearrowelectrical/" target="_blank" rel="noopener" aria-label="Follow One Arrow Electrical on Instagram, 237 followers"><svg><use href="#i-ig"/></svg>Follow on Instagram <small>237</small></a>
+        </div>
+      </div>
+      <div class="work__grid">
+        <figure class="swipe"><img src="assets/work-pendant.webp" width="900" height="1200" alt="Drum pendant and wall light fitted in a living room" loading="lazy"><figcaption>Pendant and wall lights</figcaption></figure>
+        <figure class="swipe"><img src="assets/svc-bathroom.webp" width="900" height="1200" alt="Bathroom with new downlights and lighting" loading="lazy"><figcaption>Bathroom lighting</figcaption></figure>
+        <figure class="swipe"><img src="assets/work-wall-light.webp" width="900" height="1200" alt="Glass wall light switched on" loading="lazy"><figcaption>Wall lights</figcaption></figure>
+        <figure class="swipe"><img src="assets/work-board-2.webp" width="900" height="1200" alt="Consumer unit with main switch" loading="lazy"><figcaption>Consumer unit upgrade</figcaption></figure>
+        <figure class="swipe"><img src="assets/svc-outdoor.webp" width="900" height="1200" alt="Security light on a brick house" loading="lazy"><figcaption>Outdoor security light</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINDS: the one dark circuit after the reset -->
+  <section id="finds" class="dark" data-sc-act="pin" data-sc-span="2.6">
+    <div data-sc-stage>
+      <div class="find">
+        <img data-sc-cue="0 0.36 0 0.07" src="assets/find-loft.webp" width="1200" height="900" alt="A melted cable junction found in a loft, held in a gloved hand">
+        <div class="find__text" data-sc-cue="0 0.36 0 0.07">
+          <span class="tag">What Alan finds</span>
+          <h2 class="sc-display sc-display--md">Behind the walls and up in the loft.</h2>
+          <p class="said">A <b>burnt-out connection</b>, found up in a loft.</p>
+          <p class="why">The kind of fault that gives no warning until it does. It's why an EICR is worth having.</p>
+        </div>
+      </div>
+      <div class="find">
+        <img data-sc-cue="0.31 0.68 0.07 0.07" src="assets/find-pipe.webp" width="900" height="1200" alt="A heating pipe pressed against a cable under the floor">
+        <div class="find__text" data-sc-cue="0.31 0.68 0.07 0.07">
+          <h3>"Heating pipe pressed up against a cable, discovered when ripping out during a rewire."</h3>
+          <p class="said">Alan, on Facebook, June 2026.</p>
+          <p class="why">Rewires are where old shortcuts come to light. He fixes what he finds and tells you about it.</p>
+        </div>
+      </div>
+      <div class="find">
+        <img data-sc-cue="0.63 1 0.07 0.01" src="assets/find-plug.webp" width="900" height="1200" alt="A scorched plug and socket">
+        <div class="find__text" data-sc-cue="0.63 1 0.07 0.01">
+          <h3>A plug and socket, scorched.</h3>
+          <p class="said">Another one from Alan's own photos.</p>
+          <p class="why">If something smells hot or looks scorched, switch it off at the board and ring him.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HELP: how it works, areas, FAQ -->
+  <section id="help" class="paper help">
+    <div class="sc-wrap">
+      <h2 class="sc-display sc-display--md" data-sc-in>How it works.</h2>
+      <ol class="steps" data-sc-in data-sc-stagger="60">
+        <li><h3>Ring or WhatsApp</h3><p>Tell Alan what's happening. Send a photo if you can.</p></li>
+        <li><h3>Free quote</h3><p>For planned work he'll come and look, then give you a price.</p></li>
+        <li><h3>The work</h3><p>Done tidy, with no mess left behind. Customers say it again and again.</p></li>
+        <li><h3>Certificate</h3><p>Tested and certified, with the paperwork sent to you after.</p></li>
+      </ol>
+
+      <div class="help__split">
+        <div class="sc-stack" data-sc-in data-sc-stagger="60">
+          <h2 class="sc-display sc-display--md">Where he covers.</h2>
+          <p class="sc-body">Based in Poynton. Not sure if you're in range? Ask.</p>
+          <ul class="areas">
+            <li><b>Poynton</b> <span>SK12</span></li>
+            <li><b>Bramhall</b> <span>SK7</span></li>
+            <li><b>Hazel Grove</b> <span>SK7</span></li>
+            <li><b>Cheadle Hulme</b> <span>SK8</span></li>
+            <li><b>Cheadle</b> <span>SK8</span></li>
+            <li><b>Wilmslow</b> <span>SK9</span></li>
+            <li><b>Stockport</b></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="sc-display sc-display--md" data-sc-in>Questions.</h2>
+          <div style="margin-top:var(--sc-5)">
+            <details><summary>Do you really come out at night?</summary><p>Yes. One Arrow takes emergency calls 24 hours a day. Customers have had Alan out late at night for a blackout, and on a frosty night for a fault nobody else could find.</p></details>
+            <details><summary>Is there a call-out charge?</summary><p><span class="placeholder">Placeholder: Alan to confirm his call-out charge before this goes live.</span></p></details>
+            <details><summary>Are quotes free?</summary><p>Yes, quotes are free. For bigger jobs Alan will come and look first so the price is right.</p></details>
+            <details><summary>Will I get a certificate?</summary><p>Yes. One Arrow is NAPIT accredited, so the work can be signed off with building control, and you get the certificate for your records.</p></details>
+            <details><summary>How can I pay?</summary><p>Bank transfer, cash or card.</p></details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT: the last circuit, a lit panel that holds -->
+  <section id="contact" class="paper contact">
+    <div class="sc-wrap">
+      <div class="panel" data-sc-in>
+        <div>
+          <h2 class="sc-display sc-display--lg">One Arrow Electrical, on the job.</h2>
+          <p class="sc-body" style="margin-top:var(--sc-4)">Day or night, ring for anything urgent. For planned work, send the form and Alan will come back to you with a free quote.</p>
+          <div class="panel__ways">
+            <a class="btn btn--call" href="tel:+447709644260"><svg><use href="#i-phone"/></svg>Call 07709 644260</a>
+            <a class="btn btn--wa" href="https://wa.me/447709644260?text=Hi%20Alan%2C%20I%20found%20you%20online.%20I%27m%20after%20a%20quote%20for%3A%20" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp Alan</a>
+          </div>
+          <p class="panel__hours"><b>Open 24 hours, 7 days.</b><br>onearrowelectrical@gmail.com</p>
+        </div>
+        <form id="quote" novalidate>
+          <label>Your name<input name="name" autocomplete="name" required></label>
+          <label>Phone<input name="phone" type="tel" autocomplete="tel" inputmode="tel" required></label>
+          <label>Job type
+            <select name="job" required>
+              <option value="">Choose one</option>
+              <option>Emergency or fault</option><option>Fuse board / consumer unit</option><option>Rewire</option><option>EV charger</option><option>EICR or landlord check</option><option>Lighting or sockets</option><option>Something else</option>
+            </select>
+          </label>
+          <label>Postcode<input name="postcode" autocomplete="postal-code" required></label>
+          <label class="full">Anything else (optional)<textarea name="msg"></textarea></label>
+          <button class="btn btn--call" type="submit">Get a free quote</button>
+          <p class="form-note">For anything urgent, ring rather than send the form.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__inner">
+    <div>
+      <strong style="color:#fff">One Arrow Electrical Ltd</strong><br>
+      Poynton, SK12 · 07709 644260<br>
+      onearrowelectrical@gmail.com
+      <small>Company no. 13288611. NAPIT accredited.<br>Concept demo by Clockwork AI. Not the official website of One Arrow Electrical.</small>
+    </div>
+    <div class="links">
+      <a class="icon-link" href="https://www.facebook.com/p/One-Arrow-Electrical-100095602114458/" target="_blank" rel="noopener" aria-label="One Arrow Electrical on Facebook"><svg><use href="#i-fb"/></svg>Facebook</a>
+      <a class="icon-link" href="https://www.instagram.com/onearrowelectrical/" target="_blank" rel="noopener" aria-label="One Arrow Electrical on Instagram"><svg><use href="#i-ig"/></svg>Instagram</a>
+      <a class="icon-link" href="https://www.google.com/maps/place/?q=place_id:ChIJbcqbUSute0gRoYxKcFPTyQ0" target="_blank" rel="noopener" aria-label="One Arrow Electrical reviews on Google"><svg><use href="#i-g"/></svg>Google reviews</a>
+      <a class="icon-link" href="https://www.myjobquote.co.uk/t/one-arrow-electrical-ltd" target="_blank" rel="noopener" aria-label="One Arrow Electrical reviews on MyJobQuote"><svg><use href="#i-star"/></svg>MyJobQuote</a>
+    </div>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn--call" href="tel:+447709644260"><svg><use href="#i-phone"/></svg>Call</a>
+  <a class="btn btn--wa" href="https://wa.me/447709644260?text=Hi%20Alan%2C%20I%20found%20you%20online.%20I%27m%20after%20a%20quote%20for%3A%20" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+</div>
+
+<script src="scrollcraft.js"></script>
+<script>
+ScrollCraft.mount(document.body);
+
+(function () {
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- the reset: read the hero's --sc-p and flip the breakers ---- */
+  var power = document.getElementById('power');
+  var breakers = [].slice.call(power.querySelectorAll('.sw'));
+  var board = power.querySelector('.unit');
+  var state = power.querySelector('.board__state');
+  var lastOn = -1;
+  function setOn(n) {
+    if (n === lastOn) return; lastOn = n;
+    breakers.forEach(function (b, i) { b.classList.toggle('is-on', i < n); });
+    power.style.setProperty('--light', (n / breakers.length).toFixed(3));
+    board.classList.toggle('is-live', n === breakers.length);
+    power.classList.toggle('is-live', n === breakers.length);
+    state.textContent = n === breakers.length ? 'All on' : (n ? 'Resetting' : 'Tripped');
+    if (n === breakers.length) lightCircuit('power');
+  }
+  if (reduce) { setOn(breakers.length); }
+  else {
+    (function tick() {
+      var p = parseFloat(power.style.getPropertyValue('--sc-p')) || 0;
+      var n = 0; breakers.forEach(function (b) { if (p >= parseFloat(b.dataset.at)) n++; });
+      setOn(n);
+      requestAnimationFrame(tick);
+    })();
+  }
+
+  /* ---- the breaker row nav: each circuit flips on once you reach it ---- */
+  var circuits = ['power', 'proof', 'team', 'services', 'work', 'finds', 'help', 'contact'];
+  function navLinks(id) { return document.querySelectorAll('.board-nav a[data-circuit="' + id + '"]'); }
+  function lightCircuit(id) { [].forEach.call(navLinks(id), function (a) { a.classList.add('is-on'); }); }
+  var current = null;
+  function onScroll() {
+    var mid = innerHeight * 0.45, now = null;
+    circuits.forEach(function (id) {
+      var el = document.getElementById(id), r = el.getBoundingClientRect();
+      if (r.top <= mid) { if (id !== 'power') lightCircuit(id); now = id; }
+    });
+    if (now !== current) {
+      current = now;
+      document.querySelectorAll('.board-nav a').forEach(function (a) { a.setAttribute('aria-current', a.dataset.circuit === now ? 'true' : 'false'); });
+    }
+  }
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  /* ---- swipe-in work photos, each on its own scroll position ---- */
+  var swipes = [].slice.call(document.querySelectorAll('.swipe'));
+  function checkSwipes() {
+    swipes = swipes.filter(function (s) {
+      if (reduce || s.getBoundingClientRect().top < innerHeight * 0.86) { s.classList.add('in'); return false; }
+      return true;
+    });
+  }
+  addEventListener('scroll', checkSwipes, { passive: true }); checkSwipes();
+
+  /* ---- team ticks: ticked off one by one when the list comes into view ---- */
+  var facts = document.querySelector('.facts'), ticked = false;
+  function checkTicks() {
+    if (ticked || !facts) return;
+    if (reduce || facts.getBoundingClientRect().top < innerHeight * 0.78) {
+      ticked = true;
+      [].forEach.call(facts.children, function (li, i) { setTimeout(function () { li.classList.add('is-ticked'); }, reduce ? 0 : 350 + i * 520); });
+    }
+  }
+  addEventListener('scroll', checkTicks, { passive: true }); checkTicks();
+
+  /* ---- phone menu ---- */
+  var menu = document.getElementById('menu'), openBtn = document.querySelector('.bar__menu'), closeBtn = menu.querySelector('.menu__close');
+  function setMenu(open) {
+    menu.classList.toggle('is-open', open);
+    document.documentElement.classList.toggle('menu-open', open);
+    openBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) closeBtn.focus(); else openBtn.focus();
+  }
+  openBtn.addEventListener('click', function () { setMenu(true); });
+  closeBtn.addEventListener('click', function () { setMenu(false); });
+  menu.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
+  addEventListener('keydown', function (e) { if (e.key === 'Escape' && menu.classList.contains('is-open')) setMenu(false); });
+
+  /* ---- demo form ---- */
+  var form = document.getElementById('quote');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!form.checkValidity()) { form.reportValidity(); return; }
+    var done = form.querySelector('.form-done') || document.createElement('p');
+    done.className = 'form-done'; done.setAttribute('role', 'status');
+    done.textContent = 'Thanks. This is a demo, so nothing was sent. On the live site this goes straight to Alan.';
+    form.appendChild(done);
+  });
+})();
+</script>
+</body>
+</html>
